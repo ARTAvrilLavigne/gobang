@@ -2,8 +2,8 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>简易五子棋游戏-jq22.com</title>
-<script src="http://libs.baidu.com/jquery/2.1.4/jquery.min.js"></script>
+<title>五子棋</title>
+<script src="https://libs.baidu.com/jquery/2.1.4/jquery.min.js"></script>
 <style>
 canvas {
 	display:block;
@@ -236,7 +236,7 @@ returnbtn.onclick = function(e) {
             myWin[k] = 6; //这个位置对方不可能赢 
         }
         if (computerWin[k] == 5) {
-            resultTxt.innerHTML = 'o(?□?)o，计算机赢了，继续加油哦！';
+            resultTxt.innerHTML = '你输了，继续加油哦！';
             over = true;
         }
     }
